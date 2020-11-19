@@ -1,0 +1,184 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.section-hero {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background-image: url(../img/footer-bg.jpg);
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+}
+
+.title-line::after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  margin: 10px auto;
+}
+
+.section-services .button {
+  background: url(../img/touch-bg.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: white;
+  border: none;
+}
+
+.section-services .card-image {
+  width: 200px;
+  height: 200px;
+}
+
+.section-references .arrow-left,
+.section-references .arrow-right {
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.section-references .arrow-left {
+  background: url(../img/slider-prev-arrow.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.section-references .arrow-right {
+  background: url(../img/slider-next-arrow.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.section-references .overlayer {
+  z-index: 100;
+  position: relative;
+}
+
+.section-references .background {
+  position: absolute;
+  left: -10px;
+  bottom: -25px;
+  width: 150px;
+  height: 150px;
+}
+
+.section-references .pagination {
+  position: relative;
+}
+
+.section-references .pagination span,
+.section-references .pagination span::before,
+.section-references .pagination span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+.section-references .pagination span {
+  background-color: #beb5c4;
+}
+
+.section-references .pagination span::before,
+.section-references .pagination span::after {
+  content: '';
+  display: block;
+  background-color: #5e456c;
+}
+
+.section-references .pagination span::before {
+  transform: translateX(-15px);
+}
+
+.section-references .pagination span::after {
+  transform: translateX(15px);
+}
+
+.section-contact {
+  background-color: black;
+  color: white;
+}
+
+.section-contact .title-line::after {
+  background-color: grey;
+}
+
+.section-contact .input,
+.section-contact .textarea {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  resize: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  color: white;
+  padding: 10px;
+}
+
+.section-contact .input {
+  width: 45%;
+}
+
+.section-contact .textarea {
+  height: 40px;
+}
+
+.section-contact .input::placeholder,
+.section-contact .textarea::placeholder {
+  font-size: 12px;
+  font-weight: 500;
+}
+.section-footer {
+  background-image: url(../img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.section-footer .address-list {
+  list-style: none;
+}
+
+.section-footer .address-list li {
+  position: relative;
+  padding: 0 35px;
+}
+
+.section-footer .address-list .list-pic {
+  position: absolute;
+  left: 0;
+  width: 19px;
+  height: 16px;
+}
+
+.section-footer .rights {
+  font-weight: 300;
+}
